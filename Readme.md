@@ -2,7 +2,7 @@
 
 * Студент: [Александра Филимонова](https://up.htmlacademy.ru/htmlcss/16/user/325377).
 
----
+*Наставник: [Александр Сушко]
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
