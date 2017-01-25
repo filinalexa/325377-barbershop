@@ -7,6 +7,8 @@
   <body>
   	<header class="main-header">
   		 <div class="container">
+        <div class="logotip">
+        <a href="#"><img src="img/logotip.png" width="100" height="50" alt="Барбершоп «Бородинский»"></a>
   		 	<nav class="main-navigation">
           <ul>
             <li>
@@ -52,7 +54,7 @@
     <aside class="sidebar">
       <form class="product-filters" action="https://echo.htmlacademy.ru" method="get">
         <fieldset class="name-brands">
-          <legend><h2>Производители</h2></legend>
+          <legend class>Производители</legend>
             <input type="checkbox" id="check1" name="Baxter of California"><label for="check1">Baxter of California</label>
             <input type="checkbox" id="check2" name="Mr Natty"><label for="check2">Mr Natty</label>
             <input type="checkbox" id="check3" name="Suavecito"><label for="check3">Suavecito</label>
@@ -62,7 +64,7 @@
         </fieldset>
 
         <fieldset class="product-type">
-          <legend><h2>Группы товаров:</h2></legend>
+          <legend>Группы товаров:</legend>
             <input type="radio" name="product-type" value="shaving-accessories" id="a1"><label for="a1">Бритвенные<br> принадлежности</label>
             <input type="radio" name="product-type" value="cosmetics" id="a2"><label for="a2">Средства для ухода</label>
             <input type="radio" name="product-type" value="accessory" id="a3"><label for="a3">Аксессуары</label>
@@ -76,54 +78,60 @@
      <!-- <main class="catalog"> -->
 
       <article class="catalog-item">
-        <a href="#"> <img src="img/1.jpg" alt=""></a>
-        <a href="#">Набор для путешествий<br>
-         Baxter of California</a>
-         <span>2900</span> <button>купить</button>
+          <a href="#">
+              <img class="catalog-item-img" src="img/1.jpg" alt="">
+              <h3 class="catalog-item-title">Набор для путешествий<br>Baxter of California</h3>
+          </a>
+          <span class="catalog-item-price">2900</span>
+          <button class="catalog-item-button">Купить</button>
       </article>
 
       <article class="catalog-item">
-        <a href="#"> <img src="img/2.jpg" alt=""></a>
-        <a href="#">Увлажняющий кондиционер<br>
-         "Baxter of California"</a>
-         <span>750</span> <button>купить</button>
+          <a href="#">
+              <img class="catalog-item-img" src="img/2.jpg" alt="">
+              <h3 class="catalog-item-title">Увлажняющий кондиционер<br>"Baxter of California"</h3>
+          </a>
+          <span class="catalog-item-price">750</span>
+          <button class="catalog-item-button">Купить</button>
       </article >
 
       <article class="catalog-item">
-        <a href="#"> <img src="img/3.jpg" alt=""></a>
-        <a href="#">Гель для волос<br>
-         Suavecito</a>
-         <span>290</span> <button>купить</button>
+        <a href="#">
+            <img class="catalog-item-img" src="img/3.jpg" alt=""></a>
+            <h3 class="catalog-item-title">Гель для волос<br>Suavecito</h3>
+        </a>
+            <span class="catalog-item-price">290</span>
+            <button class="catalog-item-button">Купить</button>
       </article >
 
       <article class="catalog-item">
-        <a href="#"> <img src="img/4.jpg" alt=""></a>
-        <a href="#">Глина для укладки волос<br>
-         American Crew</a>
-         <span>500</span> <button>купить</button>
+          <a href="#">
+              <img class="catalog-item-img" src="img/4.jpg" alt="">
+              <h3 class="catalog-item-title">Глина для укладки волос<br>American Crew</h3>
+        </a>
+          <span class="catalog-item-price">500</span>
+          <button class="catalog-item-button">Купить</button>
       </article>
 
       <article class="catalog-item">
-        <a href="#"> <img src="img/5.jpg" alt=""></a>
-        <a href="#">Гель для волос<br>
-         American Crew</a>
-         <span>300</span> <button>купить</button>
+          <a href="#">
+              <img class="catalog-item-img" src="img/5.jpg" alt="">
+              <h3 class="catalog-item-title">Гель для волос<br>American Crew</h3>
+          </a>
+          <span class="catalog-item-price">300</span>
+          <button class="catalog-item-button">Купить</button>
       </article>
 
       <article>
-        <a href="#"> <img src="img/6.jpg" alt=""></a>
-        <a href="#">Набор для бритья<br>
-         Baxter of California</a>
-         <span>3900</span> <button>купить</button>
+        <a href="#">
+           <img class="catalog-item-img"  src="img/6.jpg" alt="">
+            <h3 class="catalog-item-title">Набор для бритья<br>Baxter of California</h3>
+          </a>
+        <span class="catalog-item-price">3900</span>
+        <button class="catalog-item-button">Купить</button>
       </article>
       
       <div class="page-number">
-        <!-- <ul>
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-        </ul> -->
         <a href="#">1</a>
         <a href="#">2</a>
         <a href="#">3</a>
@@ -134,22 +142,22 @@
   
 <footer class="main-footer">
       <div class="container">
-        <section class="footer-contacts">
+        <div class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
           <a href="#">Как нас найти?</a><br>
           Телефон: +7 (812) 666-02-66
-        </section>
-        <section class="footer-social">
+        </div>
+        <div class="footer-social">
           <p>Давайте дружить!</p>
           <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-        </section>
-        <section class="footer-copyright">
+        </div>
+        <div class="footer-copyright">
           <p>Разработано:</p>
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-        </section>
+        </div>
       </div>
     </footer>
   </body>
