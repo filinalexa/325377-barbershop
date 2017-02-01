@@ -3,13 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
   	<header class="main-header">
   		 <div class="container">
+          <div class="logotip-mini">
+                  <a href="#"><img src="img/logotip.png" width="100" height="50" alt='Барбершоп «Бородинский»'></a>
+              </div>
          	<nav class="main-navigation">
-          <a href="#"><img src="img/logotip.png" width="122" height="27" alt="Барбершоп «Бородинский»"></a>
           <ul>
             <li><a href="#">Информация</a></li>
             <li><a href="#">Новости</a></li>
@@ -35,6 +38,7 @@
         </ul>
       </nav>
     </div>
+    <div class="clearfix">
     <aside class="sidebar">
       <form class="product-filters" action="https://echo.htmlacademy.ru" method="get">
         <fieldset class="name-brands">
@@ -57,9 +61,11 @@
       </form>
 
     </aside>
+    </div>
 
+    <div class="clearfix">
      <main class="container">
-     <!-- <main class="catalog"> -->
+     
 
       <article class="catalog-item">
           <a href="#">
@@ -125,6 +131,7 @@
       </div>
 
       </main>
+    </div>
   
 <footer class="main-footer">
       <div class="container">
